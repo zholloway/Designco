@@ -21,6 +21,7 @@ Top of page banner
 */
 header {
   background-color: #f2f2f2;
+  position: fixed;  
 }
 
 hr {
@@ -74,13 +75,13 @@ h1 {
   text-align: center;
   margin-bottom: 0;
   color: #4d4d4d;
+  margin-top: 3.5em;
 }
 
 .pageTitle {
   display: inline-flex;
   flex-direction: column;
   text-content: center;
-  margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
 
