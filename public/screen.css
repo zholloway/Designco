@@ -31,8 +31,8 @@ hr {
 }
 
 .bannerContainer {
-  margin-right: 100px;
-  margin-left: 100px;
+  margin: auto;
+  max-width: 75%;
 }
 
 .bannerBar {
@@ -40,14 +40,15 @@ hr {
 }
 
 .navLinks {
+  display: flex;
   margin-top: 1.5625em;
 }
 
 .navLinks a {
   text-decoration: none;
   color: black;
-  margin-left: .9375em;
-  margin-right: .9375em;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
 .navLinks a:hover {
@@ -55,15 +56,15 @@ hr {
 }
 
 .logo {
-  margin-left: 1.875em;
-  margin-right: 1.875em;
-  margin-top: 1.875em;
-  margin-bottom: 1.875em;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
 
 .searchIcon {
   margin-top: 1.5625em;
-  margin-left: 42.5em;
+  margin-left: 55%;
 }
 
 /* 
@@ -104,12 +105,20 @@ Pictures
 
 .pictures {
   display: flex;
-  margin-left: 6.25em;
-  margin-right: 6.25em;
+  max-width: 75%;
+  margin: auto;
 }
 
-.pictures img {
-  margin: .125em;
+.picOne {
+  margin-right: .15625em;
+  height: 31.25em;
+  max-width: 60%;
+}
+
+.picTwo {
+  margin-left: .15625em;
+  height: 31.25em;
+  max-width: 40%;
 }
 
 .pictures img:hover {
@@ -125,13 +134,13 @@ Bottom Text
 .bottomText {
   display: flex;
   flex-direction: row;
-  margin-left: 6.25em;
-  margin-right: 6.25em;
+  margin: auto;
+  max-width: 75%;
 }
 
 .newSection {
-  width: 21.875em;
-  margin-right: 6.25em;
+  width: 55em;
+  margin-right: 3.25em;
 }
 
 .newSection h2{
@@ -147,6 +156,6 @@ Bottom Text
   flex-direction: row;
 }
 
-.columnParagraphs p {
-  margin: .625em;
+.columnParagraphs p{
+  margin-top: 0;
 }
